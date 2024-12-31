@@ -1,0 +1,17 @@
+{
+  "name": "intermediate-cypress",
+  "version": "1.0.0",
+  "description": "- Computador com no minímo 2 cores\r - 8 GB no minímo de memória RAM\r - Docker\r - GIT bash (instalados)\r - Node.JS\r - npm\r - Google chrome\r - Visual studio Code",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@faker-js/faker": "^9.3.0",
+    "cypress": "^13.17.0",
+    "cypress-plugin-api": "^2.11.2",
+    "dotenv": "^16.4.7"
+  }
+}
