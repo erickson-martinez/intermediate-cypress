@@ -27,6 +27,7 @@ git clone https://github.com/erickson-martinez/intermediate-cypress.git
 Como configurar o ambiente local de desenvolvimento
 Como instalar e configurar o Cypress
 Como criar testes automatizados de interface gráfica de usuário
+![alt text](image.png)
 Como criar testes automatizados de API (com feedback visual no navegador)
 Como testar APIs que necessitam um token de acesso
 Como criar testes otimizados e direto-ao-ponto
