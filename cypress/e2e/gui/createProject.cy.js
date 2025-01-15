@@ -2,7 +2,8 @@ import { faker } from "@faker-js/faker";
 
 describe("Create Project", () => {
   beforeEach(() => {
-    cy.login();
+    cy.api_deleteProjects();
+    cy.gui_login();
   });
 
   it("successfully", () => {
