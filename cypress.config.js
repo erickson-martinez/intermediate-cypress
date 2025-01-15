@@ -7,6 +7,8 @@ module.exports = defineConfig({
       USER_NAME: process.env.CYPRESS_USER_NAME,
       USER_PASS: process.env.CYPRESS_USER_PASS,
       GITLAB_ACCESS_TOKEN: process.env.CYPRESS_GITLAB_ACCESS_TOKEN,
+      hideCredentials: true,
+      requestMode: true,
     },
   },
   fixturesFolder: false,
