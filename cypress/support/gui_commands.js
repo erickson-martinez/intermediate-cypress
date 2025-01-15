@@ -24,7 +24,7 @@
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
 Cypress.Commands.add(
-  "login",
+  "gui_login",
   (
     user = Cypress.env("user_name"),
     password = Cypress.env("user_password")
@@ -43,7 +43,7 @@ Cypress.Commands.add(
   }
 );
 
-Cypress.Commands.add("logout", () => {
+Cypress.Commands.add("gui_logout", () => {
   cy.get(".qa-user-avatar").click();
   cy.contains("Sign out").click();
 });
