@@ -4,7 +4,8 @@
   "description": "- Computador com no minímo 2 cores\r - 8 GB no minímo de memória RAM\r - Docker\r - GIT bash (instalados)\r - Node.JS\r - npm\r - Google chrome\r - Visual studio Code",
   "main": "index.js",
   "scripts": {
-    "test": "cypress open"
+    "test": "cypress run",
+    "test:open": "cypress open"
   },
   "author": "",
   "license": "ISC",

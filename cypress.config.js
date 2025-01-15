@@ -10,8 +10,9 @@ module.exports = defineConfig({
       hideCredentials: true,
       requestMode: true,
     },
+    experimentalRunAllSpecs: true,
+    experimentalStudio: true,
   },
   fixturesFolder: false,
   video: false,
-  baseUrl: process.env.CYPRESS_URL_SITE,
 });
